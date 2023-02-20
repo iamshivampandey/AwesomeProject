@@ -45,7 +45,7 @@ function App() {
           <Screen1/>:
               <Text>This is for the develop branch</Text>
        }
-     
+     <Text>This is for the branch_02 branch</Text>
     </SafeAreaView>
   );
 }
