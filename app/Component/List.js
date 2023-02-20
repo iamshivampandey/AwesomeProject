@@ -13,6 +13,7 @@ const data = [
     { name: 'shubham', selected: true },
     { name: 'deepak', selected: false },
     { name: 'Hashir', selected: false },
+    { name: 'amit', selected: false },
 ]
 
 const List = () => {
