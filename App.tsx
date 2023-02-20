@@ -10,6 +10,7 @@ import {
 import VectorImage from 'react-native-vector-image';
 import CustomTabScreen from './app/Component/CustomTabScreen';
 import List from './app/Component/List'
+import  Screen1 from './app/Component/Screen1'
 import { icBack, icCheckboxWithOutline, icHamburgerMenu, icHanger, icTabHome } from './app/utils/images';
 
 
@@ -41,7 +42,7 @@ function App() {
        />
        {selectedIndex == 0 ?
           <List/>:selectedIndex == 1?
-            <Text>This is second Index</Text>:
+          <Screen1/>:
               <Text>This is for the develop branch</Text>
        }
      
