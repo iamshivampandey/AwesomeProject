@@ -42,7 +42,7 @@ function App() {
        {selectedIndex == 0 ?
           <List/>:selectedIndex == 1?
             <Text>This is second Index</Text>:
-              <Text>This is third Index</Text>
+              <Text>This is for the develop branch</Text>
        }
      
     </SafeAreaView>
