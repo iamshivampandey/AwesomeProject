@@ -78,6 +78,7 @@ PODS:
   - hermes-engine/Pre-built (0.71.2)
   - libevent (2.1.12)
   - OpenSSL-Universal (1.1.1100)
+  - razorpay-pod (1.3.0)
   - RCT-Folly (2021.07.22.00):
     - boost
     - DoubleConversion
@@ -329,6 +330,9 @@ PODS:
   - React-jsinspector (0.71.2)
   - React-logger (0.71.2):
     - glog
+  - react-native-razorpay (2.3.0):
+    - razorpay-pod
+    - React
   - React-perflogger (0.71.2)
   - React-RCTActionSheet (0.71.2):
     - React-Core/RCTActionSheetHeaders (= 0.71.2)
@@ -464,6 +468,7 @@ DEPENDENCIES:
   - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
+  - react-native-razorpay (from `../node_modules/react-native-razorpay`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
   - React-RCTAnimation (from `../node_modules/react-native/Libraries/NativeAnimation`)
@@ -494,6 +499,7 @@ SPEC REPOS:
     - fmt
     - libevent
     - OpenSSL-Universal
+    - razorpay-pod
     - SocketRocket
     - YogaKit
 
@@ -538,6 +544,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/jsinspector"
   React-logger:
     :path: "../node_modules/react-native/ReactCommon/logger"
+  react-native-razorpay:
+    :path: "../node_modules/react-native-razorpay"
   React-perflogger:
     :path: "../node_modules/react-native/ReactCommon/reactperflogger"
   React-RCTActionSheet:
@@ -587,6 +595,7 @@ SPEC CHECKSUMS:
   hermes-engine: 6351580c827b3b03e5f25aadcf989f582d0b0a86
   libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
   OpenSSL-Universal: ebc357f1e6bc71fa463ccb2fe676756aff50e88c
+  razorpay-pod: ebc78907f756ace307e3fa4270ff684ebb9e291b
   RCT-Folly: 424b8c9a7a0b9ab2886ffe9c3b041ef628fd4fb1
   RCTRequired: c154ebcfbf41d6fef86c52674fc1aa08837ff538
   RCTTypeSafety: 3063e5a1e5b1dc2cbeda5c8f8926c0ad1a6b0871
@@ -601,6 +610,7 @@ SPEC CHECKSUMS:
   React-jsiexecutor: c7e028406112db456ac3cf5720d266bc7bc20938
   React-jsinspector: ea8101acf525ec08b2d87ddf0637d45f8e3b4148
   React-logger: 97987f46779d8dd24656474ad0c43a5b459f31d6
+  react-native-razorpay: 0272dd684bc9148828c54a72e05059e3e2e8b813
   React-perflogger: c7ccda3d1d1da837f7ff4e54e816022a6803ee87
   React-RCTActionSheet: 01c125aebbad462a24228f68c584c7a921d6c28e
   React-RCTAnimation: 5277a9440acffc4a5b7baa6ae3880fe467277ae6

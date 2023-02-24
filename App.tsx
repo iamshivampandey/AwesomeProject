@@ -33,7 +33,6 @@ function App() {
            flexDirection:'row',
            marginVertical:20,
            marginHorizontal:10
-           
           }}>
             <VectorImage source={icHamburgerMenu} style={styles.backIcon}/>
           <Text style={{ }}>                                                                                                                                        </Text>
