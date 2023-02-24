@@ -11,13 +11,19 @@ import VectorImage from 'react-native-vector-image';
 import CustomTabScreen from './app/Component/CustomTabScreen';
 import List from './app/Component/List'
 import  Screen1 from './app/Component/Screen1'
+import  OTP from './app/Component/OTP'
+import Payment from './app/Component/Payment';
 import { icBack, icCheckboxWithOutline, icHamburgerMenu, icHanger, icTabHome } from './app/utils/images';
 
 
 function App() {
   const [selectedIndex,setSelectedIndex] = useState(0)
   const [tabs,setTabs] = useState([
-    'Select Student','Tab 2','Tab 3'
+    'PAY',
+    'OTP',
+    'Select Student',
+    'Tab 2',
+    'Tab 3'
   ])
    
   return (
@@ -40,12 +46,12 @@ function App() {
         }}
         
        />
-       {selectedIndex == 0 ?
-          <List/>:selectedIndex == 1?
-          <Screen1/>:
-              <Text>This is for the develop branch</Text>
+       {selectedIndex == 0 ? 
+          <Payment/>: selectedIndex == 1?
+          <OTP/>: selectedIndex == 2?
+          <List/>: selectedIndex == 3? 
+          <Screen1/>: <Text>This is for the develop branch</Text>
        }
-     <Text>This is for the branch_01 branch</Text>
     </SafeAreaView>
   );
 }
